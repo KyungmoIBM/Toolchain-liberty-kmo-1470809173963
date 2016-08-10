@@ -54,7 +54,7 @@ function loadItems(){
 
 function startProgressIndicator(row)
 {	
-	row.innerHTML="<td class='content'>Uploading file... <img height=\"50\" width=\"50\" src=\"images/loading.gif\"></img></td>";	
+	row.innerHTML="<td class='content'> (modified---1) Uploading file... <img height=\"50\" width=\"50\" src=\"images/loading.gif\"></img></td>";	
 }
 
 function removeProgressIndicator(row)
