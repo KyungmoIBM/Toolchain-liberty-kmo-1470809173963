@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Toolchain-liberty-kmo
+  host: Toolchain-liberty-kmo
+  disk_quota: 1024M
+  services:
+  - Toolchain-liberty-kmo-cloudantNoSQLDB
